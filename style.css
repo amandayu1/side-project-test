@@ -1,14 +1,11 @@
 *{
-    padding : 0;
-    margin : 0;
+    margin : 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 body
 {
-    background-image: url(background.png);
-    background-position: center;
-    background-position-y: 110px;
-    background-size: cover;
+
     font-family: sans-serif;
 }
 
@@ -21,6 +18,25 @@ h1
     font-size: 50px;
     font-family: "Bebas Neue";
     font-stretch: ultra-expanded;
+}
+
+h2
+{
+    padding: 1.25%;
+    font-size: 30px;
+    font-family: "Bebas Neue";
+    font-stretch: ultra-expanded;
+}
+
+h3
+{
+    margin: 15px;
+}
+
+p
+{
+    margin: 15px;
+    padding-bottom: 200px;
 }
 
 #logo
@@ -85,20 +101,19 @@ h1
 {
     display: block;
     position: absolute;
-    background:#e4cd01f5;
+    background:#e4cd00;
     margin: 15px 0 0 -20px;
 }
 
 .menu-bar ul li:hover .sub-menu1 ul
 {
     display: block;
-    margin: 10px;
 }
 
 .menu-bar ul li:hover .sub-menu1 ul li
 {
-    width: 146px;
-    padding: 10px 0 10px 0;
+    width: 167px;
+    padding: 10px 0 10px 0px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0px;
@@ -110,9 +125,9 @@ h1
     border-bottom: none;
 }
 
-.menu-bar ul li:hover .sub-menu1 ul li:last-child a:hover
+.menu-bar ul li:hover .sub-menu1 ul li a:hover
 {
-   color: #b2ff00;
+   color: #6e3f00;
 }
 
 /*body to be filled*/
