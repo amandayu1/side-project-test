@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "UFT-8">
-        <title>Waterloo Basics</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <title>Waterloo Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+</head>
 <body>
+    <img alt="Logo" id="logo" src="wb_logo.jpg" width="180" height="171">
+    <h1><span id="W">W</span>arrior <span id="B">B</span>asics</h1>
     <div class="menu-bar">
     <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Incoming Students</li>
-        <li><a href="#">Current Students</a></li>
-        <li><a href="#">About Us</a></li>
+        <li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a></li> <!--https://fontawesome.com/v4.7.0/icons/--> 
+        <li><a href="incoming_students.html"><i class="fa fa-send"></i>Incoming Students</a> <!--graduation-cap-->
+            <div class="sub-menu1">
+                <ul>
+                    <li><a href="incoming_students.html#admission_information">Admission Information</a></li>
+                    <li><a href="incoming_students.html#important_dates">Important Dates</a></li>
+                    <li><a href="incoming_students.html#uw_eg_vs_others">UW Eng Vs Others</a></li>
+                </ul>
+            </div>
+         </li>
+        <li><a href="current_students.html"><i class="fa fa-rocket"></i>Current Students</a></li> <!--address-book-->
+        <li><a href="about_us.html"><i class="fa fa-user"></i>About Us</a></li>
     </ul>
     </div>
+    <footer class="footer">
+        A footer
+    </footer>
 </body>
 </html>
